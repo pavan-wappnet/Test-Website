@@ -1,0 +1,1691 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+}
+
+/* Menu */
+
+nav, .menus {
+    display: flex;
+}
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+.logoimg {
+    width: 209px;
+    height: 64px;
+    top: 37px;
+    left: 133px;
+}
+
+.menus {
+    font-family: 'Lato', sans-serif;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1rem;
+    size: 18px;
+    color: #1E293B;
+}
+
+.signup {
+    font-family: 'Lato', sans-serif;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1rem;
+    size: 18px;
+    color: #1E293B;
+}
+
+
+button{
+    width: 90px;
+    height: 23px;
+    background-color: #3FC4FF;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+/* Home */
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent_section{
+    display: flex;
+}
+
+.section_banner {
+    float: left;
+    width: 75%;
+}
+
+
+.section_text {
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 111px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E293B;
+}
+
+.course {
+    position: relative;
+    color: #3FC4FF;
+    z-index: 1;
+}
+
+.headingcircle {
+    position: absolute;
+    width: 330px;
+    top: 250px;
+    left: 520px;
+    z-index: 2;
+
+}
+.notepal{
+    color: #946FC6;
+}
+
+.section_text_1 {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #737373;
+}
+
+
+.new_spacing{
+    margin: 20px;
+    margin-left: 0px;
+}
+
+.getcourse{
+    font-family: Lato;
+    font-weight: 600;
+    width: 90px;
+    height: 30px;
+    margin-left: 0px;
+    background-color: #3FC4FF;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.readmore {
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 15px;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E293B;
+}
+.readmore {
+    position: relative;
+    padding-right: 15px;
+
+}
+  
+.readmore:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    width: 5px;
+    height: 2px;
+    background-color: #1E293B;
+    transform: translateY(-50%);
+}
+
+.section_pic {
+    float: right;
+    width: 500px;
+    height: auto;
+}
+
+
+
+/* NUMBERS */
+
+
+#numbers {
+    width: 1110px;
+    height: 150px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    padding: 20px;
+    background-color: #946FC6;
+}
+
+
+
+/* Course */
+
+
+.info_parent {
+    display: flex;
+}
+
+.total_course {
+    display: flex;
+}
+
+.white_rectangle1 {
+    width: 80px;
+    height: 80px;
+    margin-top: 7.5%;
+    margin-left: 0%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.new_course_icon {
+    margin: auto;
+    width: 50px;
+    height: 42px;
+    margin-left: 15%;
+    margin-top: 22%;
+}
+
+.total_courses {
+    width: 117px;
+    height: 30px;
+    margin-top: 14%;
+    margin-left: 8%;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.text_course {
+    margin-left: 5%;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+
+/* Teachers */
+
+
+.total_teachers {
+    display: flex;
+    margin-left: 17%;
+}
+
+.white_rectangle2 {
+    width: 80px;
+    height: 80px;
+    margin-top: 7.5%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.teacher_icon {
+    margin: auto;
+    width: 50px;
+    height: 42px;
+    margin-left: 15%;
+    margin-top: 22%;
+}
+
+.total_teacher {
+    width: 117px;
+    height: 30px;
+    margin-top: 14%;
+    margin-left: 8%;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.text_teacher {
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+
+
+
+/*Parents */
+
+
+.total_parents {
+    display: flex;
+    margin-left: 17%;
+}
+
+.white_rectangle3 {
+    width: 80px;
+    height: 80px;
+    margin-top: 7.5%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.parent_icon {
+    margin: auto;
+    width: 50px;
+    height: 42px;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+.total_parent {
+    width: 117px;
+    height: 30px;
+    margin-top: 14%;
+    margin-left: 8%;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.text_parent {
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+
+
+
+/* WE ARE THE BEST */
+
+#we_are_best {
+    border-radius: 15px;
+    background-color: #946FC614;
+}
+
+.parent_section2 {
+    display: flex;
+}
+
+
+.best_child_section {
+    font-size: 30px;
+}
+
+.best_text {
+    width: 550px;
+    height: 150px;
+    top: 1207px;
+    left: 105px;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.education_text{
+    width: 493px;
+    height: 60px;
+    top: 1370px;
+    left: 100px;
+    margin-left: 5%;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.buycourse {
+    font-family: Lato;
+    font-weight: 600;
+    width: 90px;
+    height: 30px;
+    margin-top: 3%;
+    margin-left: 0px;
+    background-color: #3FC4FF;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.best_teachers {
+    display: flex;
+    float: right;
+    width: 230px;
+    height: 230px;
+    margin-top: 4.5%;
+    margin-left: 6%;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 10px 4px #1E293B0D;
+}
+
+.certificates {
+    display: flex;
+    float: right;
+    width: 230px;
+    height: 230px;
+    margin-top: 4.5%;
+    margin-left: 6%;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 10px 4px #1E293B0D;
+}
+
+.teachers_logo {
+    margin-left: 7%;
+    margin-top: 10%;
+}
+
+.rectangle1 {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #3FC4FF;
+}
+
+.best_teachers_logo {
+    align-content: center;
+    width: 30px;
+    height: 28px;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+
+.teachers_hadding {
+    margin-left: 0%;
+    margin-bottom: 0%;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: #1E293B;
+}
+
+
+.teachers_desc {
+    margin-bottom: 4%;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+    color: #737373;
+}
+
+
+
+
+.certificates_logo {
+    margin-left: 7%;
+    margin-top: 10%;
+}
+
+.rectangle2 {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #798EE4;
+}
+
+.certificate_logo {
+    align-content: center;
+    width: 30px;
+    height: 32px;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.certificates_hadding {
+    margin-left: 0%;
+    margin-bottom: 0%;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: #1E293B;
+}
+
+.certificates_desc {
+    margin-bottom: 4%;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+    color: #737373;
+}
+
+
+.parent_section3 {
+    display: flex;
+    margin-left: 24.4%;
+    margin-top: 2.5;
+}
+
+.best_price {
+    display: flex;
+    float: right;
+    width: 230px;
+    height: 230px;
+    margin-top: 4.5%;
+    margin-left: 6%;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 10px 4px #1E293B0D;
+}
+
+
+.creative_thinking {
+    display: flex;
+    float: right;
+    width: 230px;
+    height: 230px;
+    margin-top: 4.5%;
+    margin-left: 6%;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 10px 4px #1E293B0D;
+}
+
+
+.best_curriculum {
+    display: flex;
+    float: right;
+    width: 230px;
+    height: 230px;
+    margin-top: 4.5%;
+    margin-left: 6%;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 10px 4px #1E293B0D;
+}
+
+
+
+.best_price_logo {
+    margin-left: 7%;
+    margin-top: 10%;
+}
+
+.rectangle3 {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color:#946FC6;
+}
+
+.best-price_logo {
+    align-content: center;
+    width: 30px;
+    height: 32px;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.best_price_hadding {
+    margin-left: 0%;
+    margin-bottom: 0%;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: #1E293B;
+}
+
+.best_price_desc {
+    margin-bottom: 4%;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+    color: #737373;
+}
+
+
+.creative_thinking_logo {
+    margin-left: 7%;
+    margin-top: 10%;
+}
+
+.rectangle4 {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color:#A54E9F;
+}
+
+.creative_logo {
+    align-content: center;
+    width: 30px;
+    height: 32px;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.creative_thinking_hadding {
+    margin-left: 0%;
+    margin-bottom: 0%;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: #1E293B;
+}
+
+.creative_thinking_desc {
+    margin-bottom: 4%;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+    color: #737373;
+}
+
+
+
+.best_curriculum_logo {
+    margin-left: 7%;
+    margin-top: 10%;
+}
+
+.rectangle5 {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color:#946FC6;
+}
+
+.best-curriculum_logo {
+    align-content: center;
+    width: 30px;
+    height: 32px;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.best_curriculum_hadding {
+    margin-left: 0%;
+    margin-bottom: 0%;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    color: #1E293B;
+}
+
+.best_curriculum_desc {
+    margin-bottom: 4%;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+    color: #737373;
+}
+
+
+/* Course Category */
+
+
+
+
+#course-category {
+    display: flex;
+    width: 1200px;
+    height: 520px;
+    border-radius: 15px;
+}
+
+
+.categories_text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35%;
+    width: 0px;
+    border: 2px;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-align: left;
+    color: #1E293B0D;
+}
+
+
+
+/* NEW CLASS */
+
+.parent_section4 {
+    margin: auto;
+    margin-top: 0%;
+} 
+
+.browse_courses {
+    margin-left: 27%;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    width: 100vw;
+    height: 50px;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    color: #1E293B;
+}
+
+.course_color {
+    color: #946FC6;
+}
+
+.course_desc {
+    margin:auto;
+    margin-top: 1%;
+    margin-left: 6%;
+    width: 493px;
+    height: 60px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #737373;
+}
+
+
+/*  NEW CLASS */
+
+.parent_section5 {
+    display: flex;
+    align-items: center;
+    margin-left: 18%;
+    margin-right: 0%;
+}
+
+
+.ellipse {
+    width: 42px;
+    height: 42px;
+    background-color: #3FC4FF;
+    border-radius: 100%;
+}
+
+.rectangle6 {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px 0px #00000014;
+    margin-left: 2%;
+}
+
+.ellipse2 {
+    width: 42px;
+    height: 42px;
+    background-color: #3FC4FF;
+    border-radius: 100%;
+    margin-left: 2%;
+}
+
+/*Science*/
+
+
+.science_logo{
+    width: 45.12px;
+    height: 65.87px;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+.science_text{
+    margin-top: 7%;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #1E293B;
+}
+
+/*Commerce */
+
+.commerce_logo{
+    width: 45.12px;
+    height: 65.87px;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+.commerce_text{
+    margin-top: 7%;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #1E293B;
+}
+
+
+/*Maths*/
+
+
+.maths_logo{
+    width: 45.12px;
+    height: 65.87px;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+.maths_text{
+    margin-top: 7%;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #1E293B;
+}
+
+
+/*Geography */
+
+
+.geography_logo{
+    width: 45.12px;
+    height: 65.87px;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+.geography_text{
+    margin-top: 7%;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #1E293B;
+}
+
+
+/*english */
+
+
+.english_logo{
+    width: 45.12px;
+    height: 65.87px;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+.english_text{
+    margin-top: 7%;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #1E293B;
+}
+
+
+
+/* TOP COURSE */
+
+#top-course {
+    width: 1200px;
+    height: 1100px;
+    background: #3FC4FF0D;
+}
+
+.top_courses {
+    margin-top: 3%;
+    margin-left: 7%;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+    color: rgba(30, 41, 59, 1);
+}
+
+.courses_color {
+    color: rgba(148, 111, 198, 1)
+}
+
+
+.top_courses_para {
+    margin-left: 0.5%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(115, 115, 115, 1);
+}
+
+.parent_rectangle {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+.rectangle7 {
+    width: 340px;
+    height: 380px;
+    margin-left: 2%;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 4px 10px 0px rgba(30, 41, 59, 0.08);
+}
+
+/* SCIENCE COURSE */
+
+.science_course {
+    margin-top: 2%;
+    margin-left: 1.5%;
+    width: 325px;
+    height: 200px;
+}
+
+.science_rect {
+    width: 55px;
+    height: 15px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 5px;
+    background: rgba(63, 196, 255, 0.1);
+}
+
+.course_design {
+    width: 37px;
+    margin: auto;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(63, 196, 255, 1);
+}
+
+.science_course_head {
+    margin-top: 2%;
+    margin-left: 3%;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;    
+}
+
+.science_course_para {
+    margin-top: 2%;
+    margin-left: 3%;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(115, 115, 115, 1);
+}
+
+.science_buy_course {
+    width: 80px;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+.buy_courses {
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: left;    
+}
+
+.science_ellipse_group {
+    display: flex;
+}
+
+.science_ellipse1 {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 100%;
+    background: rgba(63, 196, 255, 0.1);
+}
+
+.person_text {
+    margin:auto;
+    margin-bottom: 40%;
+    margin-left: 50%;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(115, 115, 115, 1); 
+}
+
+
+.science_ellipse2 {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    margin-top: 5%;
+    margin-left: 27%;
+    border-radius: 100%;
+    background: rgba(63, 196, 255, 0.1);
+}
+
+.science_ellipse3 {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    margin-top: 5%;
+    margin-left: 25%;
+    border-radius: 100%;
+    background: rgba(63, 196, 255, 0.1);
+}
+
+
+.parent_rectangle2 {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* BECOME CARD */
+#become-card {
+    width: 1200px;
+    height: 420px;
+}
+
+
+.rectangle_group {
+    display: flex;
+}
+
+
+/* LEFT SIDE */
+
+
+.left_rectangle {
+    display: flex;
+    width: 600px;
+    height: 390px;
+    background: rgba(148, 111, 198, 1);
+}
+
+.teacher_explaining {
+    width: 320px;
+    height: 310px;
+    margin-top: 13.3%;
+}
+
+.join_text {
+    margin-top: 20%;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.teacher_text3 {
+    margin-top: 1%;
+    font-family: Lato;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+}
+
+
+.teacher_paragraph {
+    margin-top: 2%;
+    margin-left: 3%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+/*RIGHT SIDE */
+
+.right_rectangle {
+    display: flex;
+    width: 600px;
+    height: 390px;
+    background: rgba(63, 196, 255, 1);
+}
+
+.join_text2 {
+    margin-left: 8%;
+    margin-top: 20%;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.parents_text3 {
+    margin-top: 2%;
+    font-family: Lato;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.parents_paragraph {
+    margin-top: 2%;
+    margin-left: 1%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.parents_preparing {
+    width: 240px;
+    height: 350px;
+    margin-top: 10.5%;
+    margin-left: 10.4%;
+}
+
+.sign_up_button {
+    background:rgba(148, 111, 198, 1);
+}
+
+
+
+
+/*TESTIMONIAL */
+#testimonial {
+    width: 1200px;
+    height: 650px;
+    border: 3px solid #FFFFFF
+}
+
+
+.parents_header {
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(30, 41, 59, 1)
+}
+
+.header_color {
+    color: rgba(148, 111, 198, 1);
+}
+
+.parents_text {
+    margin-top: 2%;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(115, 115, 115, 1);
+}
+
+.parents_text2{
+    margin-top: 0%;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(115, 115, 115, 1);
+}
+
+
+
+.parent_image{
+    margin-top: 6%;
+    margin-left: 45%;
+}
+.parent_image2 {
+    width: 100px;
+    height: 100px;
+}
+
+
+.arrow_ellipse {
+    display: flex;
+}
+
+
+.ellipse7{
+    width: 42px;
+    height: 42px;
+    margin-left: 7%;
+    background-color: #3FC4FF;
+    border-radius: 100%;
+}
+
+
+.ellipse8 {
+    width: 42px;
+    height: 42px;
+    margin-left: 80%;
+    background-color: #3FC4FF;
+    border-radius: 100%;
+}
+
+
+
+.john_smith {
+    margin-left: 45%;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(30, 41, 59, 1);
+}
+
+.john_smith_info {
+    margin-top: 0%;
+    margin-left: 4.5%;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(115, 115, 115, 1);
+}
+
+
+.parents_feedback {
+    margin: auto;
+    margin-top: 3%;
+}
+
+.parents_feedback_1{
+    margin-bottom: 0%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.parents_feedback_2{
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+.ellipse_group {
+    display: flex;
+    align-items: center;
+    margin-left: 46%;
+}
+
+.ellipse3 {
+    width: 10px;
+    height: 10px;
+    margin-top: 2%;
+    border-radius: 100%;
+    background: rgba(63, 196, 255, 1);
+}
+
+
+.ellipse4 {
+    width: 10px;
+    height: 10px;
+    margin-top: 2%;
+    margin-left: 1.5%;
+    border-radius: 100%;
+    background: rgba(217, 217, 217, 1);
+}
+
+
+.ellipse5 {
+    width: 10px;
+    height: 10px;
+    margin-top: 2%;
+    margin-left: 1.5%;
+    border-radius: 100%;
+    background: rgba(217, 217, 217, 1);
+}
+
+
+.ellipse6 {
+    width: 10px;
+    height: 10px;
+    margin-top: 2%;
+    margin-left: 1.5%;
+    border-radius: 100%;
+    background: rgba(217, 217, 217, 1);
+}
+
+/* FOOTER */
+
+#footer {
+    width: 1200px;
+    height: 450px;
+    border: 1px;
+    background-color: #f1f1fc;
+}
+
+
+.parent_section6 {
+    display: flex;
+}
+
+.social_footer {
+    margin-top: 10%;
+    margin-left: 8%;
+}
+
+
+/* LOGO */
+
+.footer_logo {
+    width: 242.15px;
+    height: 73px;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+
+/* FOOTER TEXT */
+
+
+.footer_text1{
+    margin-left: 0%;
+    margin-top: 3%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E293B;
+}
+
+.footer_text2{
+    margin-left: 0%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E293B;
+}
+
+
+.footer_text3{
+    margin-left: 0%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1E293B;
+}
+
+
+
+/* FOOTER SOCIALS */
+
+.social-container {
+    display: flex;
+}
+
+.facebook_ellipse {
+    display: flex;
+    width: 34.03px;
+    height: 34px;
+    margin-left: 0%;
+    margin-top: 3%;
+    border-radius: 100%;
+    background: #3B599833;
+}
+
+
+.facebook_logo {
+    margin: auto;
+    width: 15.01px;
+    height: 15px;
+}
+
+.insta_ellipse {
+    display: flex;
+    width: 34.03px;
+    height: 34px;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-radius: 100%;
+    background: rgba(214, 41, 118, 0.15);
+}
+
+.insta_logo {
+    margin: auto;
+    width: 15.01px;
+    height: 15px;
+}
+
+
+
+.twitter_ellipse {
+    display: flex;
+    width: 34.03px;
+    height: 34px;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-radius: 100%;
+    background: rgba(0, 172, 238, 0.2);
+}
+
+.twitter_logo {
+    margin: auto;
+    width: 15.01px;
+    height: 15px;
+}
+
+
+.youtube_ellipse {
+    display: flex;
+    width: 34.03px;
+    height: 34px;
+    margin-left: 5%;
+    margin-top: 3%;
+    border-radius: 100%;
+    background-color: rgba(255, 0, 0, 0.15);
+}
+
+.youtube_logo {
+    margin: auto;
+    width: 15.01px;
+    height: 15px;
+}
+
+
+
+/* LINKS CONTAINER */ 
+
+
+.links-container {
+    margin-top: 10%;
+    margin-left: 10%;
+    align-items: left;
+}
+
+.quick_link {
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    color: rgba(30, 41, 59, 1);
+
+}
+
+.about_us {
+    margin-top: 10%;
+    margin-left: 3%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(30, 41, 59, 1);
+}
+
+
+.footer_course {
+    margin-top: 10%;
+    margin-left: 3%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(30, 41, 59, 1);
+}
+
+.become_teacher {
+    margin-top: 10%;
+    margin-left: 3%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(30, 41, 59, 1);
+}
+
+.become_parent {
+    margin-top: 10%;
+    margin-left: 3%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(30, 41, 59, 1);
+}
+
+
+/* LINKS CONTAINER 2 */
+
+.links-container2 {
+    margin-top: 10%;
+    margin-left: 5%;
+    align-items: left;
+}
+
+.more_links {
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    color: rgba(30, 41, 59, 1);
+
+}
+
+.sign_in {
+    margin-top: 10%;
+    margin-left: 3%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(30, 41, 59, 1);
+}
+
+
+.sign_up {
+    margin-top: 10%;
+    margin-left: 3%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(30, 41, 59, 1);
+}
+
+.buy_course {
+    margin-top: 10%;
+    margin-left: 3%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(30, 41, 59, 1);
+}
+
+.contact_us {
+    margin-top: 10%;
+    margin-left: 3%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(30, 41, 59, 1);
+}
+
+
+/* NEWSLETTER */
+
+.newsletter {
+    margin-top: 10%;
+    margin-left: 7%;
+    align-items: left;
+}
+
+.our_newsletter {
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    color: rgba(30, 41, 59, 1);
+}
+
+.sub_newsletter {
+    margin-top: 3%;
+    margin-left: 0%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(30, 41, 59, 1);
+}
+
+.updates {
+    margin-top: 1%;
+    margin-left: 0%;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(30, 41, 59, 1);
+}
+
+form {
+    margin-top: 3%;
+    height: 40px;
+    border-radius: 10px, 0px, 0px, 10px;
+    background: rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+
+input {
+    height: 40px;
+    border-radius: 10px, 0px, 0px, 8px;
+    border: none;
+    background: rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+input::placeholder {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    outline: none;
+}
+
+.sent_button {
+    width: 51.04px;
+    height: 40px;
+    border-radius: 0px, 3px, 3px, 0px;
+    background: rgba(148, 111, 198, 1);
+}
+
+.line-container {
+    width: 80%;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+
+.line {
+    border-top: 2px solid rgba(30, 41, 59, 0.2);
+    margin: 20px 0;
+}
+
+.copyright {
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(30, 41, 59, 1);
+}
+
+
